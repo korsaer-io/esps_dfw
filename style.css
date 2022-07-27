@@ -1,8 +1,10 @@
-.nav-item {
-    padding-left: 3em;
-    padding-right: 3em;
+nav {
+  background-color: white;
 }
-
-.navbar-brand {
-    padding-left: 3em;
+nav .navbar-brand {
+  padding-left: 7em;
 }
+nav .nav-item {
+  padding-left: 2em;
+  padding-right: 2em;
+}/*# sourceMappingURL=style.css.map */
