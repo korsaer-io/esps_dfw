@@ -7,4 +7,15 @@ nav .navbar-brand {
 nav .nav-item {
   padding-left: 2em;
   padding-right: 2em;
+}
+
+.hero-section {
+  background-color: #F2F1F1;
+}
+.hero-section h1 {
+  font-family: Fira Sans;
+  font-size: 48pt;
+}
+.hero-section p {
+  font-size: 18pt;
 }/*# sourceMappingURL=style.css.map */
