@@ -18,4 +18,27 @@ nav .nav-item {
 }
 .hero-section p {
   font-size: 18pt;
+}
+
+footer {
+  background-color: #63C6E5;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  height: 70px;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  font-family: Fira Sans;
+  font-size: 10pt;
+}
+footer span {
+  padding: 1em;
+}
+footer span a {
+  color: black;
+  font-size: 22pt;
+}
+footer span a:hover {
+  color: #F2F1F1;
 }/*# sourceMappingURL=style.css.map */

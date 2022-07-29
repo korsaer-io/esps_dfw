@@ -1,6 +1,8 @@
 $navbarColor: white
 $heroSectionColor: #F2F1F1
 $mainFontFam: Fira Sans
+$footerColor: #63C6E5
+
 
 nav 
     background-color: $navbarColor
@@ -17,3 +19,22 @@ nav
         font-size: 48pt
     p
         font-size: 18pt
+
+footer
+    background-color: $footerColor
+    position: fixed
+    display: flex
+    align-items: center
+    height: 70px
+    width: 100%
+    left: 0
+    bottom: 0
+    font-family: $mainFontFam
+    font-size: 10pt
+    span
+        padding: 1em
+        a 
+            color: black
+            font-size: 22pt
+        a:hover 
+            color: $heroSectionColor
