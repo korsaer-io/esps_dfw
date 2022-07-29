@@ -1,16 +1,23 @@
-nav {
-  background-color: white;
+header {
+  height: 7em;
 }
-nav .navbar-brand {
+header img {
+  height: 4.6em;
+}
+header nav {
+  height: 100%;
+  background-color: #efefef;
+}
+header nav .navbar-brand {
   padding-left: 7em;
 }
-nav .nav-item {
+header nav .nav-item {
   padding-left: 2em;
   padding-right: 2em;
 }
 
 .hero-section {
-  background-color: #F2F1F1;
+  background-color: #82D1EA;
 }
 .hero-section h1 {
   font-family: Fira Sans;
@@ -20,8 +27,13 @@ nav .nav-item {
   font-size: 18pt;
 }
 
+.portfolio-banner {
+  background-color: #82D1EA;
+  height: 100px;
+}
+
 footer {
-  background-color: #63C6E5;
+  background-color: #efefef;
   position: fixed;
   display: flex;
   align-items: center;
@@ -37,8 +49,8 @@ footer span {
 }
 footer span a {
   color: black;
-  font-size: 22pt;
+  font-size: 20pt;
 }
 footer span a:hover {
-  color: #F2F1F1;
+  color: #82D1EA;
 }/*# sourceMappingURL=style.css.map */
