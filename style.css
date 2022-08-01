@@ -1,12 +1,16 @@
+body {
+  background-color: #82D1EA;
+}
+
 header {
-  height: 7em;
+  height: 5em;
 }
 header img {
-  height: 4.6em;
+  height: 3.5em;
 }
 header nav {
-  height: 100%;
-  background-color: #efefef;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: #EA9B82;
 }
 header nav .navbar-brand {
   padding-left: 7em;
@@ -24,7 +28,7 @@ header nav .nav-item {
   font-size: 48pt;
 }
 .hero-section p {
-  font-size: 18pt;
+  font-size: 14pt;
 }
 
 .portfolio-banner {
@@ -33,11 +37,11 @@ header nav .nav-item {
 }
 
 footer {
-  background-color: #efefef;
-  position: fixed;
+  background-color: #EA9B82;
   display: flex;
+  position: relative;
   align-items: center;
-  height: 70px;
+  height: 3.75em;
   width: 100%;
   left: 0;
   bottom: 0;
@@ -52,5 +56,5 @@ footer span a {
   font-size: 20pt;
 }
 footer span a:hover {
-  color: #82D1EA;
+  color: #efefef;
 }/*# sourceMappingURL=style.css.map */

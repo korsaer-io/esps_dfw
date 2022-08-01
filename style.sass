@@ -1,15 +1,18 @@
-$navbarColor: #efefef
-$heroSectionColor: #82D1EA
+$navbarColor: #EA9B82
+$heroSectionColor: #efefef
 $mainFontFam: Fira Sans
-$footerColor: #efefef
+$backgroundColor: #82D1EA
 
+
+body
+    background-color: $backgroundColor
 
 header
-    height: 7em
+    height: 5em
     img
-        height: 4.6em
+        height: 3.5em
     nav 
-        height: 100%
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px        
         background-color: $navbarColor
         .navbar-brand
             padding-left: 7em
@@ -17,24 +20,25 @@ header
             padding-left: 2em
             padding-right: 2em
 
+
 .hero-section
-    background-color: $heroSectionColor
+    background-color: $backgroundColor
     h1
         font-family: $mainFontFam
         font-size: 48pt
     p
-        font-size: 18pt
+        font-size: 14pt
 
 .portfolio-banner
-    background-color: $heroSectionColor
+    background-color: $backgroundColor
     height: 100px
 
 footer
-    background-color: $footerColor
-    position: fixed
+    background-color: $navbarColor
     display: flex
+    position: relative /*make footer non sticky*/
     align-items: center
-    height: 70px
+    height: 3.75em
     width: 100%
     left: 0
     bottom: 0
